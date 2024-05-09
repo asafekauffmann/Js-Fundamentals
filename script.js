@@ -108,14 +108,16 @@ if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
 week.forEach((e) => console.log(e));  */
 
 // SWITCH Statement
-const day = "thursday";
+const day = "monday";
 
 switch (day) {
   case "sunday":
     console.log("Today is Sunday.");
+
   break;
   case "monday":
     console.log("Monday dude. You drink to much yesterday, today no sucker!");
+    console.log("Is a good idea u get some diving time.");
   break;
   case "tuesday":
     console.log("Hey, come down. Is Tuesday! Drink if u stress only.");
