@@ -108,12 +108,12 @@ if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
 week.forEach((e) => console.log(e));  */
 
 // SWITCH Statement
-const day = "monday";
+const day = "wednesday";
 
 switch (day) {
   case "sunday":
     console.log("Today is Sunday.");
-
+    console.log("Make every move slow.");
   break;
   case "monday":
     console.log("Monday dude. You drink to much yesterday, today no sucker!");
@@ -121,18 +121,23 @@ switch (day) {
   break;
   case "tuesday":
     console.log("Hey, come down. Is Tuesday! Drink if u stress only.");
+    console.log("calm down, your liver and kidney aren't made of steel!");
   break;
   case "wednesday":
     console.log("Fuck u... We will lost the deadline. Is wednesday.");
+    console.log("Do not Fuck with all.");
   break;
   case "thursday":
-    console.log("Ha. Thursday suckers!!!!")
+    console.log("Ha. Thursday suckers!!!!");
+    console.log("Let's have a beer.");
   break;
   case "friday":
-    console.log("It's just send. Is Friday, not talk to me anymore, please []");
+    console.log("It's just send. Is Friday, not talk to me anymore, please.");
+    console.log("Relax, drink water...");
   break;
   case "saturday":
     console.log("Real? I need Saturday all day long! For Real.");
+    console.log("Just go.");
   break;
   default:
     console.log("default");
