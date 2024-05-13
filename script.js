@@ -108,7 +108,7 @@ if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
 week.forEach((e) => console.log(e));  */
 
 // SWITCH Statement
-const day = "wednesday";
+/*  const day = "wednesday";
 
 switch (day) {
   case "sunday":
@@ -141,5 +141,35 @@ switch (day) {
   break;
   default:
     console.log("default");
-}
+}  */
 
+
+
+
+
+// Ternary Conditional Operator
+/* const age = 19;
+age >= 18 ? console.log("I like to drink wine 🍷.") : console.log("I like to drink water 💧...");
+const canDrink = age >= 18 ? console.log("Wine🍷") : console.log("Water💧");
+
+let drink;
+if (age >= 18) {
+  drink = "🍷Wine🍷";
+} else {
+  drink = "💧Water💧";
+}
+console.log(drink);
+console.log(`I like to drink ${drink}`);
+console.log(`real this second one ${age >= 18 ? "Wine🍷" : "Water💧"}`); */
+
+// Ternary example
+/* const bill = 275;
+let tip = bill <= 50 && bill >= 300 ? bill * 0.15 : bill * 0.2;
+
+console.log(`The bill is ${bill}, the value tip is ${tip}, the result is ${bill + tip}`); */
+
+
+
+
+
+// Functions, Objects, Arrays and also Loops
