@@ -1,3 +1,4 @@
+// 01
 // --- BOOLEAN results Trutht and Falsy Values
 /* console.log(Boolean(0));
 console.log(Boolean(''));
@@ -172,4 +173,5 @@ console.log(`The bill is ${bill}, the value tip is ${tip}, the result is ${bill 
 
 
 
+//02
 // Functions, Objects, Arrays and also Loops
