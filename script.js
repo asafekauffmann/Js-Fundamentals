@@ -189,8 +189,9 @@ if (hasDriverLicense) console.log("I can Drive.");
 
 
 // Function
+// DRY - DON'T REPEAT YOURSELF
 
-function logger() {
+/* function logger() {
   console.log("was logIn");
 }
 
@@ -207,7 +208,7 @@ const juiceFruit = fruitProcess(1, 3);
 console.log(juiceFruit);
 
 const orangeJuice = fruitProcess(3, 4);
-console.log(orangeJuice);
+console.log(orangeJuice); */
 
 
 
@@ -224,4 +225,39 @@ console.log(orangeJuice);
 myCalculator(8, 16, display);
 */
 
+// Function Declaration
+/* function calcAge1(birthYear) {
+  return 2024 - birthYear;
+}
+const age1 = calcAge1(1995);
+//console.log(age1);
 
+// Function Expression Generic
+//Funções retornam valores, que devem ser salvos em variaveis
+const calcAge2 = function (birthYear) {
+  return 2024 - birthYear;
+}
+const age2 = calcAge2(1990);
+console.log(age1, age2);
+ */
+
+
+// Arrow function
+/* const calcAge3 = birthYear => 2024 - birthYear;
+const age3 = calcAge3(1990);
+console.log(age3);
+
+// Arrow Function one parameter, + 1 line code need use RETURN
+const yearsUntilRetirement = birthYear => {
+  const age = 2024 - birthYear;
+  const retirement = 65 - age;
+  return retirement;
+} */
+
+const yearsUntilRetirement = (birthYear, firstName) => {
+  const age = 2024 - birthYear;
+  const retirement = 65 - age;
+  return `My name is ${firstName}, and i have ${retirement} years for work`;
+}
+
+console.log(yearsUntilRetirement(1995, 'asafe'));
