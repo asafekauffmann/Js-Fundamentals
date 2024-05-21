@@ -175,3 +175,53 @@ console.log(`The bill is ${bill}, the value tip is ${tip}, the result is ${bill 
 
 //02
 // Functions, Objects, Arrays and also Loops
+
+// Strict mode
+/* 'use strict';
+
+let hasDriverLicense = false;
+const passTest = true;
+
+if (passTest) hasDriverLicense = true;
+if (hasDriverLicense) console.log("I can Drive.");
+*/
+
+
+
+// Function
+
+function logger() {
+  console.log("was logIn");
+}
+
+// calling | running | invoking
+logger();
+
+function fruitProcess(apples, oranges) {
+  const juice = `We have some ${apples} apples, and ${oranges} oranges`;
+  return juice;
+}
+
+// numbers is the arguments when you run the function
+const juiceFruit = fruitProcess(1, 3); 
+console.log(juiceFruit);
+
+const orangeJuice = fruitProcess(3, 4);
+console.log(orangeJuice);
+
+
+
+// Function Example with simple callback
+/* function display(some) {
+    document.getElementById("demo").innerHTML = some;
+  }
+
+  function myCalculator(number1, number2, myCallback) {
+    const myNumberPlus = number1 + number2;
+    myCallback(myNumberPlus);
+  }
+
+myCalculator(8, 16, display);
+*/
+
+
